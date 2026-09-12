@@ -200,6 +200,11 @@
   font-weight: 600;
   margin-bottom: 0.2rem;
 }
+.daily-item .daily-icon {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #636363;
+}
 .daily-temp {
   margin-top: 0.6rem;
   display: flex;
