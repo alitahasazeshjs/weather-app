@@ -118,6 +118,7 @@
   background-color: #f2f2f2;
   margin-top: 2rem;
   border-radius: 1rem;
+  box-shadow: -10px 6px 31px 9px rgba(0, 0, 0, 0.09);
 }
 .city-props-main {
   font-size: 2rem;  
