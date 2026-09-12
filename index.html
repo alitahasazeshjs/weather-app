@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta dege="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+  <body>
+    <div class="search-bar">
+      <div class="search-input-area">
+        <input type="text" class="search-input" id="weather-input" placeholder="Search for a city..." />
+        <div class="city-menu remove"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="loading remove">
+        <div class="loading-icon"></div>
+      </div>
+    <div class="not-found remove">
+      <h1>404 - not found</h1>
+    </div>
+    <div class="no-res remove">
+      <h2>Please search for a city</h2>
+    </div>
+    <div class="weather-main-container remove">
+      <div class="weather-container ">
+        <div class="city-props-main">
+          <p class="city-details"></p>
+          <div class="temp-container"><span class="weather-icon">🌡️</span> <p class="temp-main"><span class="temp"></span> <sup class="sign">°C</sup></p> </div>
+        </div>
+        <div class="weather-details">
+          <div><span class="weather-det-icon"><i class="fa-solid fa-droplet"></i></span> <p><span class="humdity"></span>%</p></div>
+          <div><span class="weather-det-icon"><i class="fa-solid fa-wind"></i></span> <p><span class="wind"></span> km/h</p></div>
+        </div>
+      </div>
+      <div class="daily"></div>
+      </div>
+    </div>
+    <script src="./train.js"></script>
+  </body>
+</html>
